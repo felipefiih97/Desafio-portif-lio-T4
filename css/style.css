@@ -1,0 +1,356 @@
+body {
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    cursor: pointer;
+    font-family: 'Raleway';
+    color: #464646;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+    height: 10vh;
+    padding: 34px 0;
+    margin: 0 80px;
+}
+
+.menu-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+}
+
+.menu-title{
+    margin-left: 8px;
+}
+
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+    font-size:16px;
+    width: 600px;
+}
+
+.title-div{ 
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: -10px;
+    margin: 32px 80px;
+}
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap:50px;
+}
+
+.title-container h2{
+  
+    font-size: 52px;
+    font-weight: 700;
+    height: 90px;
+
+}
+
+.title-container h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.title-container ul{ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    font-size: 14px;
+}
+
+.profile{
+    width: 300px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    margin:0 auto;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 383px;
+    background-color: #EAF2FD;
+}
+.sobre-container{ 
+    width: 1136px;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sobre h2{ 
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.sobre p {
+    font-size: 16px;
+    padding-right: 20%;
+}
+
+.skills{
+    width: 100vw;
+    height: 670px;
+    background-color: #F5F5F5 ;
+}
+
+.skills-box{ 
+    width: 176px;
+    height: 174px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.skills-title{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin: 32px 0;
+}
+.skills-linha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center; 
+    gap: 20px;  
+}
+
+.skills-box ul{ 
+    margin-top: 90px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+.hobbies-container{ 
+    margin-top: 88px;
+    margin-bottom: 88px;
+}
+
+.hobbies-box{ 
+    width: 176px;
+    height: 174px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.hobbies-linha{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center; 
+    gap: 20px;  
+}
+
+.hobbies-box ul{
+    margin-top: 90px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.hobbies-title{ 
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.formacao{
+    width: 100vw;
+    height: 500px;
+    background-color: #EAF2FD;
+    padding-top: 80px;
+}
+
+.formacao-title{ 
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.formacao-linha{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center; 
+    gap: 20px;  
+} 
+
+.formacao-box{
+    width: 368px;
+    height: 286px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.formacao-box ul{
+   margin-top: 70px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.experiencia{ 
+    display: flex;
+    flex-direction: column;
+}
+
+.experiencia-title{ 
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.experiencia-box1{
+    margin-left: 60px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+
+}
+.experiencia .experiencia-text-button{
+    display: flex;
+    flex-direction: column;
+}
+
+.experiencia-text-button h3{
+    font-size: 22px;
+    font-weight: 700;
+    line-height:25.83px;
+    color: #464646;
+    margin-bottom: 6px;
+}
+
+.experiencia p{ 
+    margin-bottom: 6px;
+}
+.buttons{ 
+    display: flex;
+    flex-direction: row;
+    gap: 10px ;
+}
+
+.botao-repo{ 
+    width: 116px;
+    height: 51px;
+    background-color:#EDEDED;
+    border-color:#2A7AE4;
+    color: #2A7AE4;
+}
+
+.botao-demo{ 
+    width: 116px ;
+    height: 51px;
+    background-color: #2A7AE4;
+    border-color: #EAF2FD;
+    color: #EAF2FD;
+}
+
+.experiencia-box2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 60px;
+    align-items: center;
+    margin-right: 60px;
+    margin-bottom: 30px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form-contato h3{
+    font-size: 22px;
+    font-weight: 700;
+    color: #464646;
+}
+.form-contato{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    background-color: #EAF2FD;
+    padding: 64px 0;
+}
+
+.form-contato form input{
+    width: 600px;
+    height: 40px;
+    border: none;
+    box-shadow: 1px 1px 1px gray; 
+}
+
+.form-contato textarea{
+    width: 600px;
+    height: 133px;
+    border: none;
+    resize: none;
+    box-shadow: 1px 1px 1px gray; 
+}
+
+.contato-button {
+    width: 165px;
+    height: 51px;
+    background-color: #2A7AE4;
+    color:#EAF2FD;
+    border: #2A7AE4;
+}
+
+.rodape{
+    width: 100vw;
+    height: 102px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
